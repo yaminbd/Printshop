@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+.header {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar {
+    background-color: #eee;
+    padding: 5px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-left, .top-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-bar .logo {
+    font-size: 24px;
+    color: #d52d62;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-nav a:hover {
+    color: #d52d62;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color: #555;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    color: #d52d62;
+}
+
+/* Content Styles */
+.main-content {
+    display: flex;
+    padding: 20px 0;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.product-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.product-info h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.price-calculator {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.price-calculator h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price-calculator label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.price-calculator select, .price-calculator button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+}
+
+.footer-links p {
+    font-size: 14px;
+}
+
+.footer button {
+    background-color: #d52d62;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: #c0275e;
+}
